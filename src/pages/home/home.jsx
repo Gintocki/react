@@ -1,13 +1,13 @@
 import React from 'react';
 import ActionForm from './components/actionForm';
 import Table from './components/table';
-import LoginOut from './components/loginout';
+import LogoutContainers from '../../containers/logout';
 
 const Home = () => (
   <section className="home">
     <ActionForm />
     <Table />
-    <LoginOut />
+    <LogoutContainers />
   </section>
 
 );
