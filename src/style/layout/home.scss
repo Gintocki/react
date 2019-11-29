@@ -1,0 +1,47 @@
+.home {
+  width: 1200px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+
+  &__form {
+    width: 350px;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    padding: 15px 20px;
+    box-shadow: 0 0 10px 1px #e8e8e8;
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__block-inpts {
+      height: 150px;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    &__block-btn {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    &__btn {
+      width: 100px;
+    }
+  }
+
+  &__table {
+    margin-left: 70px;
+
+    & thead {
+      text-align: center;
+    }
+  }
+
+  &__block-loginout {
+    margin-left: 50xp;
+  }
+}

@@ -1,0 +1,35 @@
+.auth {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, #74b9ff, #a29bfe);
+  position: relative;
+
+  &__sign-in {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    padding: 15px 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 1px white;
+
+    &__title {
+      font-size: 30px;
+    }
+
+    &__input {
+      margin-top: 15px;
+
+      &:nth-child(2) {
+        margin-top: 30px;
+      }
+    }
+    &__btn {
+      margin-top: 30px;
+      width: 150px;
+    }
+  }
+}
