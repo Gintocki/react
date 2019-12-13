@@ -1,12 +1,12 @@
 import React from 'react';
-import ActionForm from './components/actionForm';
-import Table from './components/table';
+import ActionFormContainer from '../../containers/actionForm';
+import TableContainer from '../../containers/Table';
 import LogoutContainers from '../../containers/logout';
 
 const Home = () => (
   <section className="home">
-    <ActionForm />
-    <Table />
+    <ActionFormContainer />
+    <TableContainer />
     <LogoutContainers />
   </section>
 

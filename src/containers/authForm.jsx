@@ -17,7 +17,7 @@ class AuthFormContainers extends PureComponent {
     });
   }
 
-  authorization = async () => {
+  authorization = () => {
     const { email, password } = this.state;
     const { getUser } = this.props;
 

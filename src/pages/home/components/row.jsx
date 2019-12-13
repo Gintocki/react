@@ -1,10 +1,11 @@
 import React from 'react';
 
-const Row = () => (
+
+const Row = ({ user }) => (
   <tr>
-    <td>Jon</td>
-    <td>Sina</td>
-    <td>34</td>
+    <td>{user.name}</td>
+    <td>{user.surname}</td>
+    <td>{user.age}</td>
   </tr>
 );
 

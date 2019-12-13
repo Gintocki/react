@@ -1,7 +1,7 @@
 import React from 'react';
 import Row from './row';
 
-const Table = () => (
+const Table = ({ users }) => (
   <table className="table home__table">
     <thead className="thead-dark">
       <th>Name</th>
@@ -9,7 +9,7 @@ const Table = () => (
       <th>Age</th>
     </thead>
     <tbody>
-      <Row />
+      {users.map((u) => <Row id={u.id} user={u} />)}
     </tbody>
   </table>
 );
