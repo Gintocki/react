@@ -1,18 +1,17 @@
-import { ADD_USERS } from '../actionTypes';
+import { GET_USERS } from '../actionTypes';
 
-export const addUsersSuccess = (users) => ({
-  type: ADD_USERS,
-  users,
+export const getUsersSuccess = (payload) => ({
+  type: GET_USERS,
+  payload,
 });
 
-export const addUsers = (name, surname, age) => (dispatch) => {
+export const getUsers = () => async (dispatch) => {
   try {
-    return dispatch(addUsersSuccess({
-      id: Date.now(), name, surname, age,
-    }));
-  } catch (err) {
-    console.log(err);
+    const response = await fetch('accounts.json');
+    const users = await response.json();
+
+    return dispatch(getUsersSuccess(users));
+  } catch (error) {
+    return console.log(error);
   }
 };
-
-export default addUsers;

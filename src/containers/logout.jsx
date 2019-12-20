@@ -1,6 +1,5 @@
 import React, { PureComponent } from 'react';
 import { connect } from 'react-redux';
-import PropTypes from 'prop-types';
 import logoutUser from '../actions/logout';
 import LoginOut from '../pages/home/components/loginout';
 

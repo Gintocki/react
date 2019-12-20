@@ -3,16 +3,16 @@
     "id": 1,
     "email": "sina@gmail.com",
     "password": "1234qwer",
-    "Name": "Leo",
-    "Surname": "Sina",
-    "Age": "23"
+    "name": "Leo",
+    "surname": "Sina",
+    "age": "23"
   },
   {
     "id": 2,
     "email": "snow@gmail.com",
     "password": "12345",
-    "Name": "Jon",
-    "Surname": "Snow",
-    "Age": "34"
+    "name": "Jon",
+    "surname": "Snow",
+    "age": "34"
   }
 ]

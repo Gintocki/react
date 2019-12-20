@@ -14,6 +14,7 @@ export const fetchUser = (email, password) => async (dispatch) => {
       if (item.email === email && item.password === password) {
         return item;
       }
+
       if (item.email === email || item.password === password) {
         return alert('Неверный логин или пароль');
       }

@@ -1,6 +1,5 @@
 import React, { PureComponent } from 'react';
 import { connect } from 'react-redux';
-import PropTypes from 'prop-types';
 import { fetchUser } from '../actions/getUser';
 import AuthForm from '../pages/auth/components/authForm';
 

@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { addUsers } from '../actions/getUsers';
+import { addUsers } from '../actions/addUser';
 import ActionForm from '../pages/home/components/actionForm';
 
 class ActionFormContainer extends PureComponent {
